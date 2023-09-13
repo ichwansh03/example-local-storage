@@ -51,6 +51,7 @@
         app:layout_constraintStart_toEndOf="@id/buttonLoad"/>
 
     <TextView
+        android:id="@+id/txLatest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/latest_data"
