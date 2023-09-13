@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LocalStorage"
         tools:targetApi="31">
         <activity
+            android:name=".prefdatastore.StorePrefActivity"
+            android:exported="false" />
+        <activity
             android:name=".preferences.PreferencesActivity"
             android:exported="false" />
         <activity

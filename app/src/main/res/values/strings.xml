@@ -6,4 +6,8 @@
     <string name="save">Save</string>
     <string name="load">Load</string>
     <string name="latest_data">Latest Data:</string>
+    <string name="key">Key</string>
+    <string name="value">Value</string>
+    <string name="store">Store</string>
+    <string name="get">Get</string>
 </resources>
