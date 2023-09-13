@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LocalStorage</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="adult">Adult?</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="latest_data">Latest Data:</string>
+</resources>
