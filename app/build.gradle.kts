@@ -50,8 +50,8 @@ dependencies {
     implementation("androidx.datastore:datastore-preferences:1.0.0")
 
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.0")
 
     // Coroutine Lifecycle Scopes
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
@@ -59,6 +59,7 @@ dependencies {
 
     //realm
     implementation("io.realm.kotlin:library-base:1.11.0")
+    implementation("io.realm.kotlin:library-sync:1.11.0")
 
     implementation("androidx.datastore:datastore:1.0.0")
     implementation("com.google.protobuf:protobuf-javalite:3.18.0")
