@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "LocalStorage"
 include(":app")
- 
+include(":roomdb")
+include(":apollodb")
