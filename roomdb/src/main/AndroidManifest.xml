@@ -14,8 +14,11 @@
 
     <application>
         <activity
+            android:name=".EditActivity"
+            android:exported="false" />
+        <activity
             android:name=".RoomActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
