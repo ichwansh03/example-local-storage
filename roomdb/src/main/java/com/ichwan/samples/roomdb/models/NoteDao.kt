@@ -20,4 +20,7 @@ interface NoteDao {
 
     @Query("SELECT * FROM note")
     suspend fun getNotes(): List<Note>
+
+    @Query("SELECT * FROM note WHERE id=:noteId")
+    suspend fun getNoteId(noteId: Int): List<Note>
 }
