@@ -12,7 +12,9 @@
         <dist:fusing dist:include="true" />
     </dist:module>
 
-    <application>
+    <application
+        android:name=".CountriesApp"
+        android:icon="@mipmap/ic_launcher_round">
         <activity
             android:name=".ApolloActivity"
             android:exported="false" />
